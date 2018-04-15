@@ -42,7 +42,7 @@ group :development, :test do
 end
 
 group :development do
-  gem 'rspec-rails', '3.1.0'
+  gem 'rspec-rails'
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
   gem 'web-console', '>= 3.3.0'
   gem 'listen', '>= 3.0.5', '< 3.2'
@@ -52,7 +52,7 @@ group :development do
 end
 
 group :test do
-  gem 'capybara', '2.7.1'
+  gem 'capybara'
 end
 
 
