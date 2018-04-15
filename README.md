@@ -29,4 +29,18 @@ rails g projeto -T -d postgresql
 
 configurar database.yml
 
+group :development do
+  gem 'rspec-rails'
+end
+group :test do
+  gem 'capybara'
+end
+bundle binstubs rspec
 rails generate rspec:install
+
+gem 'guard'
+gem 'guard-rspec'
+gem 'guard-cucumber'
+
+bundle binstubs guard
+guard init
