@@ -22,3 +22,11 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+
+
+rails g projeto -T -d postgresql
+
+configurar database.yml
+
+rails generate rspec:install
